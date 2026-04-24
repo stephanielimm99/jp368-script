@@ -50,15 +50,15 @@ const TARGET_SELECTORS = [
         font-family: Montserrat, Arial, sans-serif;
         border-radius: 20px;
         background:
-          radial-gradient(circle at 15% 10%, rgba(255, 220, 90, 0.18), transparent 24%),
-          radial-gradient(circle at 85% 18%, rgba(255, 230, 120, 0.10), transparent 22%),
+          radial-gradient(circle at 15% 10%, rgba(143, 216, 255, 0.18), transparent 24%),
+          radial-gradient(circle at 85% 18%, rgba(191, 234, 255, 0.10), transparent 22%),
           linear-gradient(145deg, #0b0d12 0%, #11141b 28%, #08090c 100%);
-        border: 1px solid rgba(255, 214, 51, 0.55);
+        border: 1px solid rgba(143, 216, 255, 0.55);
         box-shadow:
           0 0 0 1px rgba(255,255,255,.03) inset,
-          0 0 0 2px rgba(255, 214, 51, 0.06),
+          0 0 0 2px rgba(143, 216, 255, 0.06),
           0 12px 34px rgba(0,0,0,.55),
-          0 0 24px rgba(255, 214, 51, 0.12);
+          0 0 24px rgba(143, 216, 255, 0.12);
       }
 
       .server-selector-ui::before {
@@ -84,10 +84,10 @@ const TARGET_SELECTORS = [
         inset: 7px;
         border-radius: 14px;
         pointer-events: none;
-        border: 1px solid rgba(255, 214, 51, 0.16);
+        border: 1px solid rgba(143, 216, 255, 0.16);
         box-shadow:
-          inset 0 0 18px rgba(255, 214, 51, 0.05),
-          0 0 12px rgba(255, 214, 51, 0.04);
+          inset 0 0 18px rgba(143, 216, 255, 0.05),
+          0 0 12px rgba(143, 216, 255, 0.04);
       }
 
       .server-selector-head {
@@ -108,8 +108,8 @@ const TARGET_SELECTORS = [
         letter-spacing: 1.5px;
         text-transform: uppercase;
         text-shadow:
-          0 0 8px rgba(255, 214, 51, 0.18),
-          0 0 18px rgba(255, 214, 51, 0.08);
+          0 0 8px rgba(143, 216, 255, 0.18),
+          0 0 18px rgba(143, 216, 255, 0.08);
       }
 
       .server-selector-sub {
@@ -129,19 +129,19 @@ const TARGET_SELECTORS = [
         padding: 6px 10px;
         border-radius: 8px;
         text-align: center;
-        color: #171202;
+        color: #0B1A2A;
         font-size: 12px;
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
         background:
-          linear-gradient(180deg, #ffe88a 0%, #ffd43a 35%, #d59e00 100%);
-        border: 1px solid rgba(255, 244, 188, 0.42);
+          linear-gradient(180deg, #dff6ff 0%, #8fd8ff 35%, #3f8fc4 100%);
+        border: 1px solid rgba(191, 234, 255, 0.42);
         box-shadow:
           0 1px 0 rgba(255,255,255,.30) inset,
           0 -6px 10px rgba(90, 55, 0, .20) inset,
           0 8px 18px rgba(0,0,0,.30),
-          0 0 16px rgba(255, 214, 51, 0.12);
+          0 0 16px rgba(143, 216, 255, 0.12);
       }
 
       .server-selector-badge::after {
@@ -185,10 +185,10 @@ const TARGET_SELECTORS = [
         min-height: 58px;
         padding: 0 36px 0 12px;
         border-radius: 14px;
-        border: 1px solid rgba(255, 214, 51, 0.48);
+        border: 1px solid rgba(143, 216, 255, 0.48);
         cursor: pointer;
         transition: .28s ease;
-        color: #ffe082;
+        color: #dff6ff;
         font-size: 11px;
         font-weight: 900;
         letter-spacing: .9px;
@@ -205,26 +205,26 @@ const TARGET_SELECTORS = [
           0 -10px 18px rgba(0,0,0,.28) inset,
           0 0 0 1px rgba(255,255,255,.02) inset,
           0 8px 16px rgba(0,0,0,.20),
-          0 0 14px rgba(255, 214, 51, 0.06);
+          0 0 14px rgba(143, 216, 255, 0.06);
       }
 
       .server-custom-trigger:hover {
         transform: translateY(-1px);
-        border-color: rgba(255, 224, 102, 0.72);
+        border-color: rgba(143, 216, 255, 0.72);
         box-shadow:
           0 1px 0 rgba(255,255,255,.08) inset,
           0 -10px 18px rgba(0,0,0,.24) inset,
           0 8px 18px rgba(0,0,0,.24),
-          0 0 18px rgba(255, 214, 51, 0.12);
+          0 0 18px rgba(143, 216, 255, 0.12);
       }
 
       .server-custom-select.open .server-custom-trigger {
-        border-color: #ffe082;
+        border-color: #dff6ff;
         box-shadow:
           0 1px 0 rgba(255,255,255,.08) inset,
           0 -10px 18px rgba(0,0,0,.22) inset,
-          0 0 0 3px rgba(255, 214, 51, 0.08),
-          0 0 18px rgba(255, 214, 51, 0.16);
+          0 0 0 3px rgba(143, 216, 255, 0.08),
+          0 0 18px rgba(143, 216, 255, 0.16);
       }
 
 .server-custom-label {
@@ -257,7 +257,7 @@ const TARGET_SELECTORS = [
         pointer-events: none;
         border-left: 6px solid transparent;
         border-right: 6px solid transparent;
-        border-top: 8px solid #ffd43a;
+        border-top: 8px solid #8fd8ff;
         filter: drop-shadow(0 0 6px rgba(255, 214, 51, 0.6));
         transition: .25s ease;
       }
@@ -276,10 +276,10 @@ const TARGET_SELECTORS = [
         background:
           linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.01)),
           linear-gradient(145deg, #14171d 0%, #0b0d12 100%);
-        border: 1px solid rgba(255, 214, 51, 0.22);
+        border: 1px solid rgba(143, 216, 255, 0.22);
         box-shadow:
           0 16px 34px rgba(0,0,0,.42),
-          0 0 20px rgba(255, 214, 51, 0.08),
+          0 0 20px rgba(143, 216, 255, 0.08),
           inset 0 1px 0 rgba(255,255,255,.04);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -302,7 +302,7 @@ const TARGET_SELECTORS = [
       }
 
       .server-custom-menu::-webkit-scrollbar-thumb {
-        background: rgba(255, 214, 51, 0.35);
+        background: rgba(143, 216, 255, 0.35);
         border-radius: 99px;
       }
 
@@ -313,7 +313,7 @@ const TARGET_SELECTORS = [
         border-radius: 12px;
         display: flex;
         align-items: center;
-        color: #d4af37;
+        color: #8fd8ff;
         font-size: 13px;
         font-weight: 800;
         letter-spacing: .8px;
@@ -325,18 +325,18 @@ const TARGET_SELECTORS = [
       }
 
       .server-custom-option:hover {
-        color: #fff2b0;
+        color: #eaf8ff;
         background:
           linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.01)),
           linear-gradient(145deg, rgba(255, 214, 51, .10), rgba(255, 214, 51, .03));
-        border-color: rgba(255, 214, 51, 0.18);
+        border-color: rgba(143, 216, 255, 0.18);
         box-shadow:
           inset 0 1px 0 rgba(255,255,255,.03),
-          0 0 12px rgba(255, 214, 51, 0.08);
+          0 0 12px rgba(143, 216, 255, 0.08);
       }
 
       .server-custom-option.selected {
-        color: #f5d76e;
+        color: #dff6ff;
         background: linear-gradient(180deg, #2a2a2a, #141414);
         border: 1px solid rgba(255, 214, 51, 0.4);
         box-shadow:
@@ -354,7 +354,7 @@ const TARGET_SELECTORS = [
         background:
           linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.01)),
           linear-gradient(145deg, #14161a 0%, #0b0c10 100%);
-        border: 1px solid rgba(255, 214, 51, 0.18);
+        border: 1px solid rgba(143, 216, 255, 0.18);
         box-shadow:
           0 1px 0 rgba(255,255,255,.03) inset,
           inset 0 10px 18px rgba(255,255,255,.015),
@@ -373,22 +373,22 @@ const TARGET_SELECTORS = [
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background: #ffd43a;
+        background: #8fd8ff;
         box-shadow:
-          0 0 10px rgba(255, 214, 51, 0.55),
-          0 0 18px rgba(255, 214, 51, 0.16);
+          0 0 10px rgba(143, 216, 255, 0.55),
+          0 0 18px rgba(143, 216, 255, 0.16);
       }
 
       .server-terminal-inline-box {
         padding-left: 24px;
-        color: #f4e4a8;
+        color: #dff6ff;
         font-family: Consolas, Monaco, monospace;
         font-size: 10px;
         line-height: 1.4;
         letter-spacing: .5px;
         white-space: pre-wrap;
         text-transform: uppercase;
-        text-shadow: 0 0 6px rgba(255, 214, 51, 0.06);
+        text-shadow: 0 0 6px rgba(143, 216, 255, 0.06);
       }
 
       .server-terminal-inline-box div {
@@ -407,7 +407,7 @@ const TARGET_SELECTORS = [
         background:
           linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.01)),
           linear-gradient(145deg, #181a1f 0%, #0d0e12 100%);
-        border: 1px solid rgba(255, 214, 51, 0.18);
+        border: 1px solid rgba(143, 216, 255, 0.18);
         box-shadow:
           0 1px 0 rgba(255,255,255,.04) inset,
           inset 0 10px 16px rgba(255,255,255,.01),
@@ -442,9 +442,9 @@ const TARGET_SELECTORS = [
       }
 
       .server-dot.pending {
-        background: #ffe27a;
+        background: #8fd8ff;
         box-shadow:
-          0 0 0 5px rgba(255, 214, 51, 0.08),
+          0 0 0 5px rgba(143, 216, 255, 0.08),
           0 0 12px rgba(255, 214, 51, 0.46);
         animation: serverPulse 1s infinite ease-in-out;
       }
@@ -470,9 +470,9 @@ const TARGET_SELECTORS = [
       }
 
       .server-status-text strong {
-        color: #ffd84d;
+        color: #8fd8ff;
         font-weight: 900;
-        text-shadow: 0 0 8px rgba(255, 214, 51, 0.12);
+        text-shadow: 0 0 8px rgba(143, 216, 255, 0.12);
       }
 
       .server-custom-option {
@@ -488,7 +488,7 @@ const TARGET_SELECTORS = [
 .server-option-percent {
   flex: 0 0 auto;
   margin-left: 16px;
-  color: #ffd43a;
+  color: #8fd8ff;
   font-size: 13px;
   font-weight: 900;
   letter-spacing: .4px;
@@ -663,8 +663,8 @@ for (var i = 1; i <= 4; i++) {
 var signal = '<span class="server-signal">' + barsHtml + '</span>';
 
 var metaColor = "#ff4d4d";
-if (num > 90) metaColor = "#00ff88";
-else if (num > 75) metaColor = "#ffd43a";
+if (num > 90) metaColor = "#8fd8ff";
+else if (num > 75) metaColor = "#8fd8ff";
 
 customLabel.innerHTML =
   '<span class="selected-server-name">' + label + '</span>' +
@@ -781,7 +781,7 @@ var signal = '<span class="server-signal">' + barsHtml + '</span>';
 
 var metaColor = "#ff4d4d";
 if (num > 90) metaColor = "#00ff88";
-else if (num > 75) metaColor = "#ffd43a";
+else if (num > 75) metaColor = "#8fd8ff";
 
 customLabel.innerHTML =
   '<span class="selected-server-name">' + savedLabel + '</span>' +
@@ -961,7 +961,7 @@ customLabel.innerHTML =
 
   var metaColor = "#ff4d4d";
   if (num > 90) metaColor = "#00ff88";
-  else if (num > 75) metaColor = "#ffd43a";
+  else if (num > 75) metaColor = "#8fd8ff";
 
   return '<span class="selected-server-name">' + savedLabel + '</span>' +
          '<span class="selected-server-meta" style="color:' + metaColor + ';">' + signal + ' ' + percent + '</span>';
@@ -1128,7 +1128,7 @@ function startRandomUpdates() {
         if (num > 90) {
           el.style.color = "#00ff88";
         } else if (num > 75) {
-          el.style.color = "#ffd43a";
+          el.style.color = "#8fd8ff";
         } else {
           el.style.color = "#ff4d4d";
         }
