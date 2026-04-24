@@ -1160,7 +1160,7 @@ function createApkBox() {
   wrap.id = "apk-box-ui";
 
   wrap.innerHTML = `
-    <div class="jp368-box">
+    <div class="maxwin-box">
       <div class="left-panel">
         <div class="headline">
           <span class="line-1">Pastikan Selalu Login Dengan</span>
