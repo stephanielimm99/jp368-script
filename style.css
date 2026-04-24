@@ -21,11 +21,11 @@ body {
   width: 100%;
   max-width: 100%;
   margin: auto;
-  background: linear-gradient(180deg, #bfeaff, #78cfff);
-  border: 2px solid #7fd8ff;
+  background: linear-gradient(180deg, #3f8fc4, #1f5f8f);
+  border: 2px solid #8fd8ff;
   border-radius: 14px;
   padding: 8px;
-  box-shadow: 0 0 18px rgba(127, 216, 255, 0.25);
+  box-shadow: 0 0 18px rgba(143, 216, 255, 0.2);
   display: flex;
   gap: 8px;
   align-items: stretch;
@@ -59,7 +59,7 @@ body {
 
 .right-panel {
   width: 48%;
-  border: 2px solid #7fd8ff;
+  border: 2px solid #8fd8ff;
   border-radius: 12px;
   padding: 2px;
   background: #000;
@@ -100,7 +100,7 @@ body {
 .main-link {
   display: block;
   width: 100%;
-  background: linear-gradient(180deg, #c8f1ff, #6bc8ff);
+  background: linear-gradient(180deg, #bfeaff, #63bff5);
   color: #111;
   font-weight: 700;
   text-align: center;
@@ -127,7 +127,7 @@ select {
   padding: 4px 24px 4px 8px;
   border-radius: 6px;
   border: none;
-  background-color: #dff6ff;
+  background-color: #ffffff;
   font-size: 10px !important;
   font-weight: 700 !important;
   color: #000000 !important;
@@ -143,7 +143,7 @@ select {
 }
 
 .copy-btn {
-  background: linear-gradient(180deg, #c8f1ff, #6bc8ff);
+  background: linear-gradient(180deg, #bfeaff, #63bff5);
   color: #111;
   border: none;
   padding: 5px 10px;
@@ -206,7 +206,7 @@ select {
 
 .search-btn {
   display: inline-block;
-  background: linear-gradient(180deg, #c8f1ff, #6bc8ff);
+  background: linear-gradient(180deg, #bfeaff, #63bff5);
   color: #111;
   font-size: 9px;
   font-weight: 700;
@@ -220,5 +220,5 @@ select {
 .search-wrap {
   margin-top: 4px;
   padding-top: 4px;
-  border-top: 1px solid rgba(127, 216, 255, 0.5);
+  border-top: 1px solid rgba(143, 216, 255, 0.5);
 }
