@@ -17,7 +17,7 @@ body {
 }
 
 /* BOX UTAMA */
-.jp368-box {
+.maxwin-box {
   width: 100%;
   max-width: 100%;
   margin: auto;
@@ -41,7 +41,7 @@ body {
   box-sizing: border-box;
 }
 
-#apk-box-ui .jp368-box {
+#apk-box-ui .maxwin-box {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
