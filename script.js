@@ -1195,7 +1195,7 @@ function createApkBox() {
 
       <div class="right-panel">
         <a href="https://storetn.in/JP368/jp368.apk" target="_blank">
-          <img src="https://imgstorage.site/view/miracle/apk-jp368.png" alt="Download APK JP368">
+          <img src="https://imgstorage.site/view/miracle/download-apk-jp368.png" alt="Download APK JP368">
         </a>
       </div>
     </div>
